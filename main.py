@@ -12,7 +12,7 @@ classifier = pipeline("image-classification", model="Falconsai/nsfw_image_detect
 def read_root():
     return {
         "message": "Chào mừng đến với API nhận dạng nội dung ảnh",
-        "student": "Hoàng - IT - Khoa CNTT",
+        "student": "Huỳnh Huy Hoàng - 24120181",
         "model": "Falconsai/nsfw_image_detection"
     }
 
@@ -37,5 +37,10 @@ async def predict(file: UploadFile = File(...)):
         results = classifier(image)
         return {"filename": file.filename, "predictions": results}
     except Exception as e:
-        # Xử lý lỗi trong quá trình suy luận [cite: 45]
+        # Xử lý lỗi trong quá trình suy luận 
         raise HTTPException(status_code=500, detail=str(e))
+
+# Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+# .\venv\Scripts\activate
+# uvicorn main:app --reload
+

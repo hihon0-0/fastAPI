@@ -1,8 +1,7 @@
 import requests
 
 url = "http://127.0.0.1:8000/predict"
-# Nhớ để 1 tấm ảnh tên 'demo.jpg' vào cùng thư mục này nhé
-file_path = "demo.jpg" 
+file_path = "demo.py" 
 
 with open(file_path, "rb") as f:
     # Gửi kèm tên file và định dạng để FastAPI không bị lỗi NoneType
@@ -13,3 +12,6 @@ with open(file_path, "rb") as f:
         print("Kết quả từ API:", response.json())
     else:
         print(f"Lỗi {response.status_code}: {response.text}")
+
+
+ # python test_api.py
