@@ -1,7 +1,7 @@
 import requests
 
 url = "http://127.0.0.1:8000/predict"
-file_path = "demo.py" 
+file_path = "5.jpg" 
 
 with open(file_path, "rb") as f:
     # Gửi kèm tên file và định dạng để FastAPI không bị lỗi NoneType

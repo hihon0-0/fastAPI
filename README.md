@@ -1,13 +1,13 @@
 BÀI THỰC HÀNH SỐ 1 - APPLICATION PROGRAMMING INTERFACE
 1. Thông tin sinh viên 
-    Họ và tên: Huynh Huy Hoang
+    Họ và tên: Huỳnh Huy Hoàng.
     Mã số sinh viên: 24120181. Lớp: 24CTT5 
     Trường: Đại học Khoa học Tự nhiên - ĐHQG-HCM 
     Môn học: Tư duy tính toán 
 2. Mô hình Hugging Face 
     Tên mô hình: nsfw_image_detection 
     Liên kết: Falconsai/nsfw_image_detection 
-    Chức năng: Phân loại hình ảnh để nhận diện nội dung nhạy cảm (NSFW) hoặc nội dung bình thường (Normal).
+    Chức năng: Phân loại hình ảnh để nhận diện nội dung nhạy cảm (NSFW) hoặc nội dung bình thường  
 3. Hướng dẫn cài đặt thư viện
     Dự án sử dụng môi trường ảo Python. Để cài đặt các thư viện cần thiết, chạy lệnh sau:
                     pip install -r requirements.txt
