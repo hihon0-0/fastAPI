@@ -28,4 +28,4 @@ Ví dụ Request/Response Request:
             {"label": "nsfw", "score": 0.00015148617967497557}
         ]
     }
-6. Video Demo Liên kết video: 
+6. Video Demo Liên kết video: https://drive.google.com/drive/folders/1c9-Aqv6ESWDnINl1koIUxwUeat_zq5-g?usp=sharing
