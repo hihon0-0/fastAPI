@@ -38,7 +38,7 @@ Truy cập tài liệu API tại: http://127.0.0.1:8000/docs
 
 * **Test API** trực tiếp
 * **Upload ảnh** để kiểm tra thực tế.
-* **Xem request/response**
+* **Xem chi tiết** cấu trúc Request/Response.
 
 ---
 
@@ -48,7 +48,8 @@ Truy cập tài liệu API tại: http://127.0.0.1:8000/docs
 python test_api.py
 ```
 ▶️ **Cách 2: Gọi API thủ công**
-📥 Request
+
+📥  **Request**
 * **Method:** `POST`
 * **Endpoint:** `/predict`
 * **Content-Type:** `multipart/form-data`
