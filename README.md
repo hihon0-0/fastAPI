@@ -54,6 +54,7 @@ python test_api.py
 * **Endpoint:** `/predict`
 * **Content-Type:** `multipart/form-data`
 * **Body:** file ảnh
+  
 📤 **Response (JSON)**
 ```bash
 {
